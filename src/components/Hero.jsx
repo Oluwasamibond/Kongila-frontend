@@ -7,10 +7,10 @@ export default function Hero() {
     <section className="relative min-h-screen bg-white overflow-hidden">
       
       {/* Right blue diagonal */}
-      <div className="absolute right-0 top-0 h-full w-[45%] bg-gradient-to-b from-[#0047BB] to-blue-800 rounded-bl-[120px]" />
+      <div className="absolute right-0 top-0 h-full w-[45%] bg-linear-to-b from-primary to-blue-800 rounded-bl-[120px]" />
 
       {/* Decorative blob */}
-      <div className="absolute right-[28%] top-[35%] w-55 h-55 bg-[#0047BB]/80 rounded-[60px] rotate-45 blur-[1px]" />
+      <div className="absolute right-[28%] top-[35%] w-55 h-55 bg-primary/80 rounded-[60px] rotate-45 blur-[1px]" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-40 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -57,6 +57,14 @@ export default function Hero() {
             />
           </div>
         </div>
+
+         {/* Circle people images */}
+       { /* <div className="absolute left-1/2 top-[55%] transform -translate-x-1/2 flex space-x-4 lg:space-x-6">
+          <img src={person1} alt="Person 1" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
+          <img src={person2} alt="Person 2" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
+          <img src={person3} alt="Person 3" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
+          <img src={person4} alt="Person 4" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
+        </div> */ }
       </div>
     </section>
   );
