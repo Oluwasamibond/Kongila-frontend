@@ -34,7 +34,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex items-center gap-4">
-            <button className="bg-(--color-primary) px-6 py-3 rounded-lg text-white font-medium shadow-md hover:bg-primary/90 transition">
+            <button className="bg-[var(--color-primary)] px-6 py-3 rounded-lg text-white font-medium shadow-md hover:bg-primary/90 transition">
             <Link to="/employer-signup">
               Hire Top Talent
             </Link>
