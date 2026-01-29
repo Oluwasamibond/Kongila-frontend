@@ -61,7 +61,7 @@ const cardVariants = {
 
 function WhyKongila() {
   return (
-    <section className="bg-(--color-neutral-bg) py-24">
+    <section className="bg-[#F7FAFC] py-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section title */}
         <h2 className="text-3xl lg:text-4xl font-semibold text-center mb-20">

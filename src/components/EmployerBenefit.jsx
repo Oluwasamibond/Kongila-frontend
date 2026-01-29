@@ -33,7 +33,7 @@ const benefits = [
 
 export default function EmployerBenefits() {
   return (
-    <section className="relative py-24 bg-linear-to-br from-blue-700 to-blue-900 overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-b from-blue-700 to-blue-900 overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/20" />
 

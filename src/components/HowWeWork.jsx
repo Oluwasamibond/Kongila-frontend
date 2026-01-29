@@ -49,7 +49,7 @@ const cardVariants = {
 
 function HowWeWork() {
   return (
-    <section className="relative py-28 overflow-hidden bg-linear-to-b from-neutralBg to-primary/30">
+    <section className="relative py-28 overflow-hidden bg-gradient-to-b from-neutralBg to-primary/30">
 
          {/* Decorative orbits */}
       <div className="absolute inset-0 pointer-events-none opacity-30">
