@@ -27,17 +27,17 @@ function Navbar() {
           {/* Services Dropdown */}
           <li className="relative group cursor-pointer flex items-center gap-1">
             Services <span className="text-xs">▾</span>
-            <ul className="absolute top-full left-0 mt-2 w-44 bg-[var(--color-neutral-bg)] shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition z-50">
-              <li className="px-4 py-2 hover:bg-[var(--color-primary)] hover:text-white">
+            <ul className="absolute top-full left-0 mt-2 w-44 bg-[#F7FAFC] shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition z-50">
+              <li className="px-4 py-2 hover:bg-blue-700  hover:text-white">
                 <Link to="/services/direct-hire">Direct Hire</Link>
               </li>
-              <li className="px-4 py-2 hover:bg-[var(--color-primary)] hover:text-white">
+              <li className="px-4 py-2 hover:bg-blue-700 hover:text-white">
                 <Link to="/services/outsourcing">Outsourcing</Link>
               </li>
-              <li className="px-4 py-2 hover:bg-[var(--color-primary)] hover:text-white">
+              <li className="px-4 py-2 hover:bg-blue-700 hover:text-white">
                 <Link to="/services/team-management">Team Management</Link>
               </li>
-              <li className="px-4 py-2 hover:bg-[var(--color-primary)] hover:text-white">
+              <li className="px-4 py-2 hover:bg-blue-700 hover:text-white">
                 <Link to="/services/project-management">Project Management</Link>
               </li>
             </ul>
@@ -49,12 +49,12 @@ function Navbar() {
 
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center gap-4 text-sm">
-          <Link to="/talent-signup" className="text-(--color-primary)">
+          <Link to="/talent-signup" className="text-[#0047BB]">
             Apply as a Talent
           </Link>
           <Link
             to="/employer-signup"
-            className="bg-(--color-primary) px-4 py-2 rounded-lg text-white"
+            className="bg-[#0047BB] px-4 py-2 rounded-lg text-white"
           >
             Hire Talent
           </Link>
@@ -126,7 +126,7 @@ function Navbar() {
           <li>
             <Link
               to="/talent-signup"
-              className="text-(--color-primary)"
+              className="text-[#0047BB]"
             >
               Apply as a Talent
             </Link>
@@ -134,7 +134,7 @@ function Navbar() {
           <li>
             <Link
               to="/employer-signup"
-              className="bg-[var(--color-primary)] text-white px-4 py-2 rounded-lg inline-block"
+              className="bg-[#0047BB] text-white px-4 py-2 rounded-lg inline-block"
             >
               Hire Talent
             </Link>

@@ -19,7 +19,7 @@ export default function Hero() {
         <div>
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
             <span className="text-gray-800 block">Hire Vetted Talent or</span>
-            <span className="text-(--color-primary) block mt-2">
+            <span className="text-[#0047BB] block mt-2">
               Get Matched
             </span>
             <span className="text-gray-800 block">
@@ -34,7 +34,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex items-center gap-4">
-            <button className="bg-[var(--color-primary)] px-6 py-3 rounded-lg text-white font-medium shadow-md hover:bg-primary/90 transition">
+            <button className="bg-[#0047BB] px-6 py-3 rounded-lg text-white font-medium shadow-md hover:bg-primary/90 transition">
             <Link to="/employer-signup">
               Hire Top Talent
             </Link>
@@ -57,14 +57,6 @@ export default function Hero() {
             />
           </div>
         </div>
-
-         {/* Circle people images */}
-       { /* <div className="absolute left-1/2 top-[55%] transform -translate-x-1/2 flex space-x-4 lg:space-x-6">
-          <img src={person1} alt="Person 1" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
-          <img src={person2} alt="Person 2" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
-          <img src={person3} alt="Person 3" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
-          <img src={person4} alt="Person 4" className="w-14 h-14 rounded-full border-2 border-white shadow-md" />
-        </div> */ }
       </div>
     </section>
   );
