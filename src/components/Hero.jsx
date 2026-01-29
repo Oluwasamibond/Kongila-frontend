@@ -1,8 +1,6 @@
+import { Link } from "react-router-dom";
 import heroImage from "../assets/hero-woman.png";
-// import person1 from "../assets/person-1.png";
-// import person2 from "../assets/person-2.png";
-// import person3 from "../assets/person-3.png";
-// import person4 from "../assets/person-4.png";
+
 
 export default function Hero() {
   return (
@@ -37,7 +35,9 @@ export default function Hero() {
 
           <div className="mt-10 flex items-center gap-4">
             <button className="bg-(--color-primary) px-6 py-3 rounded-lg text-white font-medium shadow-md hover:bg-primary/90 transition">
+            <Link to="/employer-signup">
               Hire Top Talent
+            </Link>
             </button>
 
             <button className="bg-black border border-border px-6 py-3 rounded-lg text-white flex items-center gap-2 transition">

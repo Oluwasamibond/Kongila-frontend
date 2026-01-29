@@ -8,6 +8,10 @@ import Services from "../components/Services";
 import TalentSection from "../components/TalentSection";
 import EmployerSection from "../components/EmployerSection";
 import EmployerBenefits from "../components/EmployerBenefit";
+import Testimonial from "../components/Testimonial";
+import Banner from "../components/Banner";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -21,6 +25,10 @@ function Home() {
       <TalentSection />
       <EmployerSection />
       <EmployerBenefits />
+      <Testimonial />
+      <Banner />
+      <FAQ />
+      <Footer />
     </>
   );
 }
