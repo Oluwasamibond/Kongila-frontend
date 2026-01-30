@@ -81,7 +81,7 @@ function WhyKongila() {
               <img
                 src={image2}
                 alt="Interview"
-                className="absolute -bottom-10 left-60 right-50px w-220px h-260px object-cover"
+                className="absolute -bottom-10 left-60 right-50px w-220px h-260px object-cover hidden md:block"
               />
             </div>
           </div>
